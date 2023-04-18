@@ -1,0 +1,14 @@
+.responsive-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width:798px) {
+    .responsive-div{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}
